@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet"  href="css/style.css">
+	<script src="js/register.js"></script>
+</head>
+<body>
+
+     <form action="signup-check.php" method="post">
+
+			 <div style="text-align: center;">
+				 <img src="assets/logo.PNG" alt="" width="50" height="50">
+			 </div>
+
+     	<h2>SIGN UP</h2>
+
+          <label>Name</label>
+
+               <input type="text"
+                      name="name"
+                      placeholder="Name"
+                      value="<?php echo $_GET['name']; ?>"><br>
+
+               <input type="text"
+                      name="name"
+                      placeholder="Name"><br>
+
+
+          <label>User Name</label>
+               <input type="text"
+                      name="uname"
+                      placeholder="User Name"
+                      value="<?php echo $_GET['uname']; ?>"><br>
+
+               <input type="text"
+                      name="uname"
+                      placeholder="User Name"><br>
+
+
+     	<label>Password</label>
+     	<input type="password"
+                 name="password"
+                 placeholder="Password"><br>
+
+          <label>Confirm Password</label>
+          <input type="password"
+                 name="confirm_password"
+                 placeholder="confirm_Password"><br>
+					<label>Age</label>
+		 		      	<input type="text"
+		 		                  name="age"
+		 		                  placeholder="Age"><br>
+					<label>Contact</label>
+									 <input type="text"
+									          name="contact"
+									           placeholder="Contact"><br>
+
+     	<button type="submit">Sign Up</button>
+          <a href="index.php" class="ca">Already have an account?</a>
+     </form>
+</body>
+</html>

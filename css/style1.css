@@ -1,0 +1,92 @@
+html {
+   min-height: 100%;
+
+   background-image: url('https://www.pixelstalk.net/wp-content/uploads/images3/Abstract_Grey_Background_download_free.png');
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 100vh;
+  flex-direction:row;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 6px solid #ccc;
+	padding: 20px;
+	margin: 16px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  color:grey;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	color: blue;
+	padding: 5px;
+	text-decoration: underline;
+}
+.ca:hover{
+	color: red;
+}
+
+.last{
+  padding-left: 190px;
+}

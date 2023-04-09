@@ -1,0 +1,98 @@
+html {
+   min-height: 100%;
+   /* background-image: url("https://img.freepik.com/premium-photo/office-blue-desk-equipment-working-top-view-flat-lay-blue-background_38937-393.jpg"); */
+	  /* background-image: url("https://img.freepik.com/premium-photo/laptop-computer-books-houseplant-pencil-holder-blue-background_35674-4989.jpg");  */
+	 background-image: url("https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?cs=srgb&dl=pexels-fauxels-3184460.jpg&fm=jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100vh;
+	flex-direction: column;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 6px solid #ccc;
+	padding: 50px;
+	margin: 50px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 5px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+.success {
+   background: #F2DEDE;
+   color: green;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	color: #2C3333;
+	padding: 10px;
+	text-decoration: underline;
+}
+.ca:hover{
+	color: blue;
+}
+
+.main{
+	justify-content: center;
+	align-items: center;
+}
